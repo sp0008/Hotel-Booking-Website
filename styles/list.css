@@ -1,35 +1,97 @@
-body{
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
+body
+{
     margin: 0%;
-    background-color:#e0e0e0;
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
 }
-
-header, footer{
-    background-color:rosybrown;
+header    
+header
+{
+    background-color: rosybrown;
+    font-family: 'Ubuntu' sans-serif;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    position: sticky;
+    top: 0;
 }
-
-#logo_img{
+footer
+#login
+{
+    background-color: rosybrown;
+    margin-right: 10px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+li
+{
+    display: inline; 
+    float: left;
+    margin: 30px;
+    font-weight: bolder;
+}
+#view-type
+{
+    display: flex;
+    justify-content: center;
+}
+#mapView
+{
+    display: none;
+}
+.List-Item
+{
+    background-color:  rgb(132,136,139);
+    margin: 2%;
+    margin: 2% 5%;
+    width: 40%;
+   float: left;
+   padding-top: 0;
+}
+#logo
+{
     border-radius: 100%;
     height: 60px;
     width: 60px;
 }
-
-.socials_img{
+.social-Img
+{
     height: 20px;
     width: 22px;
 }
-
-.hotels_img{
+.hotel-Img
+{
     height: 200px;
     width: 250px;
-} 
-
-.list_items{
-    background-color:  rgb(132,136,139);
-    margin: 2%;
-    width: 40%;
 }
-
-
-
-
-
+footer
+{
+    background-color: rosybrown;
+    font-family:'Ubuntu' sans-serif;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#social-container
+{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#contactUs
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#Copyright
+{
+margin-top: 50px;
+} 

@@ -1,45 +1,117 @@
-body{
-    margin:0%;
-    background-color:#e0e0e0;
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
+body
+{
+    margin: 0%;
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    height: 100%;
 }
-
-header, footer{
-    background-color:rosybrown;
+a
+{
+    text-decoration: none;
+    color: black;
 }
-
-#logo_img
+#Searchbar-holder
+{
+    height: 380px;
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Searchbar
+{
+    background-color: #f1f1f1;
+    border: 1px solid transparent;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 100%;
+}
+header
+{
+    background-color: rosybrown;
+    font-family: 'Ubuntu' sans-serif;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    position: sticky;
+    top: 0;
+}
+footer
+#login
+{
+    background-color: rosybrown;
+    margin-right: 10px;
+}
+#logo
 {
     border-radius: 100%;
     height: 60px;
     width: 60px;
 }
-
-#city_img_container
+footer
+{
+    background-color: rosybrown;
+    font-family:'Ubuntu' sans-serif;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#City-Img-Container
 {
     margin-left: 15%;
     margin-right: 15%;
+    text-align: center;
+    align-items: center;
 }
-
-.city_img
+.City-Img
 {
     height: 150px;
     width: 150px;
     padding: 4%;
     border-radius: 25%;
 }
-
-.socials_img
+#viewmore
+{
+    text-align: center;
+}
+.social-Img
 {
     height: 20px;
     width: 22px;
+} 
 }
-
-#search_bar_holder
+footer
 {
-    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
-    height: 380px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: rosybrown;
+    font-family:'Ubuntu' sans-serif;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
 }
-
+#social-container
+{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#contactUs
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#Copyright
+{
+margin-top: 50px;
+}
