@@ -16,15 +16,12 @@ body{
      width: 60px;
      margin-left: 2%;
  }
- .img-places{
  /* .img-places{
      height: 150px;
      width: 150px;
      padding: 4%;
      border-radius: 25%;
- }
  } */
-
  .socialmedia-img{
      height: 20px;
      width: 22px;
@@ -46,6 +43,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
     width: 100%;
     position:sticky;
     bottom: 0;
@@ -61,11 +61,7 @@ body{
      display: flex;
      align-items: center;
      justify-content: center;
-
- }
- .cities-img{
-     margin-left: 15%;
-     margin-right: 15%;
+     
  }
  /* .cities-img{
      display: flex;
@@ -75,8 +71,14 @@ body{
  .login{
      color: black;
      text-decoration: none;
-     margin-right: 2%;
      margin-right:2%;
+ #login{
+    float:right;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+.login:hover{
+    text-decoration: none;
 }
 .searchbar{
 background-color: #f1f1f1;
@@ -86,23 +88,15 @@ font-size: 16px;
 border-radius: 12px;
 /* width: 100%; */ 
 }
- #copyright{
-margin-top: 50px;
-}
-
 #contactus{
-margin-top: 20px;
-margin-left:2%;
 /* margin-top: 20px; */
 margin-left: 2%;
 }
-
 #contact-us{
     color: black;
     text-decoration: none;  
 }
 #socialicon{
-    margin-top: 20px;
     /* margin-top: 20px; */
     margin-right: 2%;
 }
@@ -115,7 +109,6 @@ input:focus{
 }
 .view-more{
     text-align: center;
-} 
 }
 #Img-Container{
     text-align: center;
@@ -162,4 +155,9 @@ input:focus{
 }
 .City-Img{
     display: block;
+}
+
+.login-in-modal{
+ display: flex;
+ justify-content: center;
 }

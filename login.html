@@ -1,17 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head> 
-        <title> Login </title>
-    </head>
-    <body>
-        <div> 
-            <form action="index.html">
-                <label for="username" > Username:</label>
-                <input type="text" id="username" name="username" placeholder="Enter Username" autocomplete="off" required> <br> <br>
-                <label for="password" >Password:</label>
-                <input type="password" id="password" placeholder="Enter Password" required> <br> <br>
-                <input type="submit" value="Login">
-            </form>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div>
+     <form action="index.html" method="get">
+         <label >Username:</label>
+         <input type="text" name="username" placeholder="Enter Username" autocomplete="off" required>
+         <br>
+         <label >Password:</label>
+         <input type="password" name="password" placeholder="Enter Password" autocomplete="off" required>
+         <br>
+         <input type="Submit" value="Login">
+     </form>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Please Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="index.html" method="get">
+               <label >Username:</label>
+               <input type="text" name="username" placeholder="Enter Username" autocomplete="off" required>
+               <br>
+               <label >Password:</label>
+               <input type="password" name="password" placeholder="Enter Password" autocomplete="off" required>
+               <br>   
+           </form>
+            </div>
+            <div class="modal-footer">
+             <input class="btn btn-primary" type="submit" value="Login">
+            </div>
+          </div>
         </div>
-    </body>
-</html>
+      </div>
+</body>
+</html> 
