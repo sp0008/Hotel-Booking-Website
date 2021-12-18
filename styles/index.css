@@ -1,117 +1,165 @@
-@import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
-body
-{
+body{
+    height: 100%;
+    width: 100%;
+    /* margin: 0px; */
     margin: 0%;
     background-color: #e0e0e0;
-    font-family: 'Ubuntu', sans-serif;
-    width: 100%;
-    height: 100%;
+    font-family: 'Ubuntu',sans-serif;
 }
-a
-{
-    text-decoration: none;
-    color: black;
+.main-div{
+ height: 100%;
+ width: 100%;
 }
-#Searchbar-holder
-{
-    height: 380px;
-    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: flex;
+ .logo{
+     border-radius: 100%;
+     height: 60px;
+     width: 60px;
+     margin-left: 2%;
+ }
+ .img-places{
+ /* .img-places{
+     height: 150px;
+     width: 150px;
+     padding: 4%;
+     border-radius: 25%;
+ }
+ } */
+
+ .socialmedia-img{
+     height: 20px;
+     width: 22px;
+ }
+ header{
+     background-color: rosybrown;
+     display: flex;
+    justify-content: space-between;
+    /* display: flex;
+    justify-content: center; */
     align-items: center;
-    justify-content: center;
-}
-.Searchbar
-{
-    background-color: #f1f1f1;
-    border: 1px solid transparent;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 12px;
+    align-items: center;
+    top:0;
     width: 100%;
-}
-header
-{
+    position:sticky;
+ }
+ footer{
     background-color: rosybrown;
-    font-family: 'Ubuntu' sans-serif;
-    width: 100%;
     display: flex;
-    position: absolute;
     justify-content: space-between;
     align-items: center;
-    text-align: justify;
-    position: sticky;
-    top: 0;
-}
-footer
-#login
-{
-    background-color: rosybrown;
-    margin-right: 10px;
-}
-#logo
-{
-    border-radius: 100%;
-    height: 60px;
-    width: 60px;
-}
-footer
-{
-    background-color: rosybrown;
-    font-family:'Ubuntu' sans-serif;
     width: 100%;
-    position: sticky;
+    position:sticky;
     bottom: 0;
-    display: flex;
-    justify-content: space-between;
+    font-family: 'Ubuntu',sans-serif;
+    height: 50px;
 }
-#City-Img-Container
-{
-    margin-left: 15%;
-    margin-right: 15%;
+ .search{
+     background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 380px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+ }
+ .cities-img{
+     margin-left: 15%;
+     margin-right: 15%;
+ }
+ /* .cities-img{
+     display: flex;
+     justify-content: space-around;
+     
+ } */
+ .login{
+     color: black;
+     text-decoration: none;
+     margin-right: 2%;
+     margin-right:2%;
+}
+.searchbar{
+background-color: #f1f1f1;
+border: 1px solid transparent;
+padding: 10px;
+font-size: 16px;
+border-radius: 12px;
+/* width: 100%; */ 
+}
+ #copyright{
+margin-top: 50px;
+}
+
+#contactus{
+margin-top: 20px;
+margin-left:2%;
+/* margin-top: 20px; */
+margin-left: 2%;
+}
+
+#contact-us{
+    color: black;
+    text-decoration: none;  
+}
+#socialicon{
+    margin-top: 20px;
+    /* margin-top: 20px; */
+    margin-right: 2%;
+}
+input:focus{
+    outline: none;
+}
+#viewmore{
+    /* text-align: center; */
+    text-decoration: none;
+}
+.view-more{
     text-align: center;
-    align-items: center;
-}
-.City-Img
-{
-    height: 150px;
-    width: 150px;
-    padding: 4%;
-    border-radius: 25%;
-}
-#viewmore
-{
-    text-align: center;
-}
-.social-Img
-{
-    height: 20px;
-    width: 22px;
 } 
 }
-footer
-{
-    background-color: rosybrown;
-    font-family:'Ubuntu' sans-serif;
-    width: 100%;
-    position: sticky;
-    bottom: 0;
+#Img-Container{
+    text-align: center;
+    align-items: center;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
-#social-container
-{
-    margin-top: 20px;
-    margin-right: 10px;
+.City-Img img{
+    height: 150px;
+    width: 150px;
+    border-radius:25%;
+    box-shadow: 10px 10px 10px gray;
 }
-#contactUs
-{
-    margin-top: 20px;
-    margin-left: 10px;
+.City-Img-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* float: left; */
+    border-radius: 25%;
+    margin-top:10px;
 }
-#Copyright
-{
-margin-top: 50px;
+.City-Img-Container .alpha{
+ display: none;
+ border-radius: 25%;
+ margin: auto;
+}
+.alpha{
+    position:absolute;
+    width: 150px;
+    height: 150px;
+    /* text-align: center; */
+}
+.City-Img-Container:hover .alpha{
+    display: block;
+    line-height: 150px;
+    color: #f1f1f1;
+    float: left;
+    background-color: rgba(0,0,0,0.5);
+    align-content:center;
+    text-align: center;
+}
+.City-Img{
+    display: block;
 }
